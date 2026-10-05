@@ -16,16 +16,11 @@ main{
     height: 12rem;
     position: static;
 }
-.TwoColumn {
+.Columns {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
-}
-.Left{
-    flex: 1;
-}
-.Right{
-    flex: 1;
+    justify-content: space-between;
+    gap: 5rem;
 }
 h1{
     font-style:oblique;
