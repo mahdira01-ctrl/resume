@@ -1,0 +1,33 @@
+:root {
+    --text: #000000;
+    --backgroundOne: #C8FFBE;
+    --backgroundTwo: #16697A;
+}
+body{
+    background-color: var(--backgroundOne);
+    color: var(--text);
+}
+main{
+    max-width: 60rem;
+    margin: 0 auto;
+}
+.Picture {
+    width: 12rem;
+    height: 12rem;
+    position: static;
+}
+.TwoColumn {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.Left{
+    flex: 1;
+}
+.Right{
+    flex: 1;
+}
+h1{
+    font-style:oblique;
+    color:var(--backgroundTwo);
+}
